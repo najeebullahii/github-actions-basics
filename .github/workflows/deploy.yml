@@ -7,11 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Safety Check
-         run: echo " verifying that CI passed..."
+        run: echo "verifying that CI passed..."
 
-      - name: Mock SSH Connection
-         run: echo "Connecting to production server at 192.168.1.1..."
-  # ... rest of the file
       - name: Mock SSH Connection
         run: echo "Connecting to production server at 192.168.1.1..."
 
@@ -24,4 +21,4 @@ jobs:
         run: |
           echo "Stopping old container..."
           echo "Starting new container..."
-          echo "Deployment Successful!
+          echo "Deployment Successful!"
