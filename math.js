@@ -1,6 +1,1 @@
-// math.js
-function add(a, b) {
-  return a + b;
-}
-
-module.exports = add;
+function add(a, b) { return a - b; } module.exports = add;
